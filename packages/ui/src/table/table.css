@@ -1,0 +1,50 @@
+@import "../main.css";
+
+.table {
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  padding: 0.5rem;
+  border-radius: 0.1rem;
+  cursor: default;
+}
+
+.table--dark {
+  background-color: var(--dark-background-colour);
+  color: var(--dark-text-colour);
+}
+
+.table--light {
+  background-color: var(--light-background-colour);
+  color: var(--light-text-colour);
+}
+
+.table--corporate {
+  background-color: var(--corporate-background-colour);
+  color: var(--corporate-text-colour);
+}
+
+.table--business {
+  background-color: var(--business-background-colour);
+  color: var(--business-text-colour);
+}
+
+.table-head-column {
+  padding: 0.75rem 0;
+}
+
+.table-head-column:first-child {
+  text-align: start;
+}
+
+.table-head-row {
+  text-align: end;
+}
+
+.th {
+  text-align: start;
+  padding: 0.5rem 0;
+}
+
+.td {
+  text-align: end;
+}

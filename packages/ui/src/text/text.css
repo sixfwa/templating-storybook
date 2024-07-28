@@ -1,0 +1,38 @@
+@import "../main.css";
+
+p,
+h1 {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+}
+
+.heading {
+  font-weight: 800;
+  font-size: 40px;
+}
+
+.paragraph {
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 0.1rem;
+}
+
+.heading--light,
+.paragraph--light {
+  color: var(--light-text-colour);
+}
+
+.heading--dark,
+.paragraph--light {
+  color: var(--dark-text-colour);
+}
+
+.heading--business,
+.paragraph--light {
+  color: var(--business-text-colour);
+}
+
+.heading--corporate,
+.paragraph--light {
+  color: var(--corporate-text-colour);
+}

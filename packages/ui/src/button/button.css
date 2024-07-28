@@ -1,0 +1,69 @@
+@import "../main.css";
+
+.button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  border-radius: 0.1rem;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  width: fit-content;
+}
+
+.button--small {
+  padding: 0.75rem 1.1rem;
+}
+
+.button--medium {
+  padding: 0.75rem 1.1rem;
+  font-size: medium;
+}
+
+.button--large {
+  padding: 0.75rem 1.1rem;
+  font-size: large;
+}
+
+/* Dark Buttons */
+.button--primary-dark {
+  color: black;
+  background-color: var(--dark-primary-colour);
+}
+
+.button--secondary-dark {
+  color: black;
+  background-color: var(--dark-secondary-color);
+}
+
+/* Light Buttons */
+.button--primary-light {
+  color: white;
+  background-color: var(--light-primary-colour);
+}
+
+.button--secondary-light {
+  color: white;
+  background-color: var(--light-secondary-colour);
+}
+
+/* Business Buttons */
+.button--primary-business {
+  color: white;
+  background-color: var(--business-primary-colour);
+}
+
+.button--secondary-business {
+  color: black;
+  background-color: var(--business-secondary-colour);
+}
+
+/* Corporate Buttons */
+.button--primary-corporate {
+  color: black;
+  background-color: var(--corporate-primary-colour);
+}
+
+.button--secondary-corporate {
+  color: black;
+  background-color: var(--corporate-secondary-colour);
+}

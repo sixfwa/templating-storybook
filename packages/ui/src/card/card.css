@@ -1,0 +1,40 @@
+@import "../main.css";
+
+.card-container {
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: center;
+}
+
+.image {
+  border-radius: 100%;
+  aspect-ratio: 1/1;
+  margin: 1rem auto;
+  object-fit: cover;
+}
+
+.card-container--light {
+  background-color: var(--light-background-colour);
+  /* border: 1px solid var(--light-background-two-colour); */
+  color: var(--light-text-colour);
+}
+
+.card-container--dark {
+  background-color: var(--dark-background-two-colour);
+  border: 1px solid var(--dark-background-colour);
+  color: var(--dark-text-colour);
+}
+
+.card-container--business {
+  background-color: var(--business-background-two-colour);
+  border: 1px solid var(--business-background-colour);
+  color: var(--business-text-colour);
+}
+
+.card-container--corporate {
+  background-color: var(--corporate-background-colour);
+  color: var(--corporate-text-colour);
+}
