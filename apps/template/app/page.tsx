@@ -3,6 +3,10 @@ import Hero from "@repo/ui/hero";
 import Navigation from "@repo/ui/navigation";
 import { getDesignElements } from "./functions";
 
+export const metadata = {
+  title: `version: ${process.env.theme}`,
+};
+
 export default async function Home() {
   const designElements = await getDesignElements();
   return (
