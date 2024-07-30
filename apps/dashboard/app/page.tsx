@@ -42,13 +42,15 @@ export default async function Home() {
       <div className="p-10">
         <Table theme="dark">
           <TableHead columnNames={data.columnNames} />
-          {data.data.map((row) => (
-            <TableRow
-              heading={row.heading}
-              columns={row.columns}
-              key={row.heading}
-            />
-          ))}
+          <tbody>
+            {data.data.map((row) => (
+              <TableRow
+                heading={row.heading}
+                columns={row.columns}
+                key={row.heading}
+              />
+            ))}
+          </tbody>
         </Table>
       </div>
     </main>
